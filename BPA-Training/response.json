@@ -1,0 +1,163 @@
+[
+    {
+      "executionObjects": [
+        {
+          "deviceName": "USNCCLTLU17BDM0001",
+          "templateId": "Common-Services-DRAM-Exposure-CEWA-V1P5P0",
+          "status": true,
+          "nso_instance": "NSO_56,nso5-lsa3-rb",
+          "templateRecordId": "63e0a599637a37794ea1916f",
+          "executionStartedAt": "2023-02-06T07:37:12.026Z",
+          "overallTmplResult": true,
+          "commands": [
+            {
+              "executedCmd": "show inventory",
+              "command": "show inventory",
+              "cmdIndex": 1,
+              "overAllCmdResult": true,
+              "cmdOutPut": "\r\nshow inventory\r\nNAME: \"Chassis\",  DESCR: \"Nexus9000 93180YC-EX chassis\"          \r\nPID: N9K-C93180YC-EX     ,  VID: V03 ,  SN: FDO22381Q0T          \r\n\r\nNAME: \"Slot 1\",  DESCR: \"48x10/25G + 6x40/100G Ethernet Module\" \r\nPID: N9K-C93180YC-EX     ,  VID: V03 ,  SN: FDO22381Q0T          \r\n\r\nNAME: \"Power Supply 1\",  DESCR: \"Nexus9000 93180YC-EX chassis Power Supply\"\r\nPID: NXA-PAC-650W-PE     ,  VID: V02 ,  SN: ART2233F9T5          \r\n\r\nNAME: \"Power Supply 2\",  DESCR: \"Nexus9000 93180YC-EX chassis Power Supply\"\r\nPID: NXA-PAC-650W-PE     ,  VID: V02 ,  SN: ART2233F9UK          \r\n\r\nNAME: \"Fan 1\",  DESCR: \"Nexus9000 93180YC-EX chassis Fan Module\"\r\nPID: NXA-FAN-30CFM-F     ,  VID: V01 ,  SN: N/A                  \r\n\r\nNAME: \"Fan 2\",  DESCR: \"Nexus9000 93180YC-EX chassis Fan Module\"\r\nPID: NXA-FAN-30CFM-F     ,  VID: V01 ,  SN: N/A                  \r\n\r\nNAME: \"Fan 3\",  DESCR: \"Nexus9000 93180YC-EX chassis Fan Module\"\r\nPID: NXA-FAN-30CFM-F     ,  VID: V01 ,  SN: N/A                  \r\n\r\nNAME: \"Fan 4\",  DESCR: \"Nexus9000 93180YC-EX chassis Fan Module\"\r\nPID: NXA-FAN-30CFM-F     ,  VID: V01 ,  SN: N/A                  \r\n\r\n",
+              "commandCollectedAt": 1675669039278,
+              "evaluatedRules": [
+                {
+                  "op": "Script",
+                  "opvariable": "",
+                  "rule": {},
+                  "result": true,
+                  "template": "cisco_ios_show_inventory_cewa_V1P5P0.template",
+                  "analysis": "cisco_ide_switch_snapshot_analysis_cewa_V1P5P0.py",
+                  "overallstatus": true,
+                  "overallmessage": "Passed",
+                  "customStatus": "Passed",
+                  "customStatCode": "Pass",
+                  "executionStatus": true,
+                  "scriptResult": "Executed Successfully.",
+                  "fields": [
+                    [
+                      { "name": "Name", "value": "OUTPUT" },
+                      {
+                        "name": "Value",
+                        "value": "[{\"PID\": \"N9K-C93180YC-EX\", \"NAME\": \"Chassis\", \"VID\": \"V03 \", \"SN\": \"FDO22381Q0T\", \"DESCR\": \"Nexus9000 93180YC-EX chassis\"}, {\"PID\": \"N9K-C93180YC-EX\", \"NAME\": \"Slot 1\", \"VID\": \"V03 \", \"SN\": \"FDO22381Q0T\", \"DESCR\": \"48x10/25G + 6x40/100G Ethernet Module\"}, {\"PID\": \"NXA-PAC-650W-PE\", \"NAME\": \"Power Supply 1\", \"VID\": \"V02 \", \"SN\": \"ART2233F9T5\", \"DESCR\": \"Nexus9000 93180YC-EX chassis Power Supply\"}, {\"PID\": \"NXA-PAC-650W-PE\", \"NAME\": \"Power Supply 2\", \"VID\": \"V02 \", \"SN\": \"ART2233F9UK\", \"DESCR\": \"Nexus9000 93180YC-EX chassis Power Supply\"}, {\"PID\": \"NXA-FAN-30CFM-F\", \"NAME\": \"Fan 1\", \"VID\": \"V01 \", \"SN\": \"N\", \"DESCR\": \"Nexus9000 93180YC-EX chassis Fan Module\"}, {\"PID\": \"NXA-FAN-30CFM-F\", \"NAME\": \"Fan 2\", \"VID\": \"V01 \", \"SN\": \"N\", \"DESCR\": \"Nexus9000 93180YC-EX chassis Fan Module\"}, {\"PID\": \"NXA-FAN-30CFM-F\", \"NAME\": \"Fan 3\", \"VID\": \"V01 \", \"SN\": \"N\", \"DESCR\": \"Nexus9000 93180YC-EX chassis Fan Module\"}, {\"PID\": \"NXA-FAN-30CFM-F\", \"NAME\": \"Fan 4\", \"VID\": \"V01 \", \"SN\": \"N\", \"DESCR\": \"Nexus9000 93180YC-EX chassis Fan Module\"}]"
+                      },
+                      { "name": "Info", "value": "" },
+                      { "name": "Status", "value": "Passed" }
+                    ]
+                  ],
+                  "format": "2.0",
+                  "globalVariables": {}
+                }
+              ]
+            }
+          ],
+          "executionId": "63e0ae31a7deac794748c7a5",
+          "executionDate": "2023-02-06T07:37:21.417Z"
+        }
+      ],
+      "executionIds": "[\"63e0ae31a7deac794748c7a5\"]"
+    },
+    {
+      "executionObjects": [
+        {
+          "deviceName": "USNCCLTLU17BDM0002",
+          "templateId": "Common-Services-DRAM-Exposure-CEWA-V1P5P0",
+          "status": true,
+          "nso_instance": "NSO_56,nso5-lsa3-rd",
+          "templateRecordId": "63e0a599637a37794ea1916f",
+          "executionStartedAt": "2023-02-06T07:37:12.016Z",
+          "overallTmplResult": true,
+          "commands": [
+            {
+              "executedCmd": "show inventory",
+              "command": "show inventory",
+              "cmdIndex": 1,
+              "overAllCmdResult": true,
+              "cmdOutPut": "\r\nshow inventory\r\nNAME: \"Chassis\",  DESCR: \"Nexus9000 93180YC-EX chassis\"          \r\nPID: N9K-C93180YC-EX     ,  VID: V03 ,  SN: FDO22390749          \r\n\r\nNAME: \"Slot 1\",  DESCR: \"48x10/25G + 6x40/100G Ethernet Module\" \r\nPID: N9K-C93180YC-EX     ,  VID: V03 ,  SN: FDO22390749          \r\n\r\nNAME: \"Power Supply 1\",  DESCR: \"Nexus9000 93180YC-EX chassis Power Supply\"\r\nPID: NXA-PAC-650W-PE     ,  VID: V02 ,  SN: ART2233F9Y9          \r\n\r\nNAME: \"Power Supply 2\",  DESCR: \"Nexus9000 93180YC-EX chassis Power Supply\"\r\nPID: NXA-PAC-650W-PE     ,  VID: V02 ,  SN: ART2233F9S9          \r\n\r\nNAME: \"Fan 1\",  DESCR: \"Nexus9000 93180YC-EX chassis Fan Module\"\r\nPID: NXA-FAN-30CFM-F     ,  VID: V01 ,  SN: N/A                  \r\n\r\nNAME: \"Fan 2\",  DESCR: \"Nexus9000 93180YC-EX chassis Fan Module\"\r\nPID: NXA-FAN-30CFM-F     ,  VID: V01 ,  SN: N/A                  \r\n\r\nNAME: \"Fan 3\",  DESCR: \"Nexus9000 93180YC-EX chassis Fan Module\"\r\nPID: NXA-FAN-30CFM-F     ,  VID: V01 ,  SN: N/A                  \r\n\r\nNAME: \"Fan 4\",  DESCR: \"Nexus9000 93180YC-EX chassis Fan Module\"\r\nPID: NXA-FAN-30CFM-F     ,  VID: V01 ,  SN: N/A                  \r\n\r\n",
+              "commandCollectedAt": 1675669039430,
+              "evaluatedRules": [
+                {
+                  "op": "Script",
+                  "opvariable": "",
+                  "rule": {},
+                  "result": true,
+                  "template": "cisco_ios_show_inventory_cewa_V1P5P0.template",
+                  "analysis": "cisco_ide_switch_snapshot_analysis_cewa_V1P5P0.py",
+                  "overallstatus": true,
+                  "overallmessage": "Passed",
+                  "customStatus": "Passed",
+                  "customStatCode": "Pass",
+                  "executionStatus": true,
+                  "scriptResult": "Executed Successfully.",
+                  "fields": [
+                    [
+                      { "name": "Name", "value": "OUTPUT" },
+                      {
+                        "name": "Value",
+                        "value": "[{\"PID\": \"N9K-C93180YC-EX\", \"NAME\": \"Chassis\", \"VID\": \"V03 \", \"SN\": \"FDO22390749\", \"DESCR\": \"Nexus9000 93180YC-EX chassis\"}, {\"PID\": \"N9K-C93180YC-EX\", \"NAME\": \"Slot 1\", \"VID\": \"V03 \", \"SN\": \"FDO22390749\", \"DESCR\": \"48x10/25G + 6x40/100G Ethernet Module\"}, {\"PID\": \"NXA-PAC-650W-PE\", \"NAME\": \"Power Supply 1\", \"VID\": \"V02 \", \"SN\": \"ART2233F9Y9\", \"DESCR\": \"Nexus9000 93180YC-EX chassis Power Supply\"}, {\"PID\": \"NXA-PAC-650W-PE\", \"NAME\": \"Power Supply 2\", \"VID\": \"V02 \", \"SN\": \"ART2233F9S9\", \"DESCR\": \"Nexus9000 93180YC-EX chassis Power Supply\"}, {\"PID\": \"NXA-FAN-30CFM-F\", \"NAME\": \"Fan 1\", \"VID\": \"V01 \", \"SN\": \"N\", \"DESCR\": \"Nexus9000 93180YC-EX chassis Fan Module\"}, {\"PID\": \"NXA-FAN-30CFM-F\", \"NAME\": \"Fan 2\", \"VID\": \"V01 \", \"SN\": \"N\", \"DESCR\": \"Nexus9000 93180YC-EX chassis Fan Module\"}, {\"PID\": \"NXA-FAN-30CFM-F\", \"NAME\": \"Fan 3\", \"VID\": \"V01 \", \"SN\": \"N\", \"DESCR\": \"Nexus9000 93180YC-EX chassis Fan Module\"}, {\"PID\": \"NXA-FAN-30CFM-F\", \"NAME\": \"Fan 4\", \"VID\": \"V01 \", \"SN\": \"N\", \"DESCR\": \"Nexus9000 93180YC-EX chassis Fan Module\"}]"
+                      },
+                      { "name": "Info", "value": "" },
+                      { "name": "Status", "value": "Passed" }
+                    ]
+                  ],
+                  "format": "2.0",
+                  "globalVariables": {}
+                }
+              ]
+            }
+          ],
+          "executionId": "63e0ae31a7deac794748c7a7",
+          "executionDate": "2023-02-06T07:37:21.495Z"
+        },
+        {
+          "deviceName": "USNYNYCTP02DBM01",
+          "templateId": "Common-Services-DRAM-Exposure-CEWA-V1P5P0",
+          "status": true,
+          "nso_instance": "NSO_56,nso5-lsa3-rd",
+          "templateRecordId": "63e0a599637a37794ea1916f",
+          "executionStartedAt": "2023-02-06T07:37:12.023Z",
+          "overallTmplResult": true,
+          "commands": [
+            {
+              "executedCmd": "show inventory",
+              "command": "show inventory",
+              "cmdIndex": 1,
+              "overAllCmdResult": true,
+              "cmdOutPut": "\r\nshow inventory\r\nNAME: \"Chassis\",  DESCR: \"Nexus7000 C7018 (18 Slot) Chassis \"    \r\nPID: N7K-C7018           ,  VID: V01 ,  SN: TBM15243971          \r\n\r\nNAME: \"Slot 1\",  DESCR: \"10 Gbps Ethernet Module\"               \r\nPID: N7K-M132XP-12       ,  VID: V11 ,  SN: JAF1525CSQT          \r\n\r\nNAME: \"Slot 2\",  DESCR: \"10 Gbps Ethernet Module\"               \r\nPID: N7K-M132XP-12       ,  VID: V11 ,  SN: JAF1525AFBN          \r\n\r\nNAME: \"Slot 3\",  DESCR: \"10 Gbps Ethernet Module\"               \r\nPID: N7K-M132XP-12       ,  VID: V11 ,  SN: JAF1525CSTL          \r\n\r\nNAME: \"Slot 4\",  DESCR: \"10 Gbps Ethernet Module\"               \r\nPID: N7K-M132XP-12       ,  VID: V14 ,  SN: JAF1452CNCM          \r\n\r\nNAME: \"Slot 5\",  DESCR: \"10 Gbps Ethernet Module\"               \r\nPID: N7K-M132XP-12       ,  VID: V11 ,  SN: JAF1525CSRM          \r\n\r\nNAME: \"Slot 6\",  DESCR: \"10 Gbps Ethernet Module\"               \r\nPID: N7K-M132XP-12       ,  VID: V11 ,  SN: JAF1525AFBE          \r\n\r\nNAME: \"Slot 9\",  DESCR: \"Supervisor Module-1X\"                  \r\nPID: N7K-SUP1            ,  VID: V13 ,  SN: JAF1525BPPT          \r\n\r\nNAME: \"Slot 10\",  DESCR: \"Supervisor Module-1X\"                  \r\nPID: N7K-SUP1            ,  VID: V15 ,  SN: JAF1619AJGL          \r\n\r\nNAME: \"Slot 16\",  DESCR: \"1/10 Gbps Ethernet Module\"             \r\nPID: N7K-F132XP-15       ,  VID: V02 ,  SN: JAF1521BBFB          \r\n\r\nNAME: \"Slot 17\",  DESCR: \"1/10 Gbps Ethernet Module\"             \r\nPID: N7K-F132XP-15       ,  VID: V02 ,  SN: JAF1521BBGP          \r\n\r\nNAME: \"Slot 18\",  DESCR: \"1/10 Gbps Ethernet Module\"             \r\nPID: N7K-F132XP-15       ,  VID: V02 ,  SN: JAF1701AAEP          \r\n\r\nNAME: \"Slot 19\",  DESCR: \"Fabric card module\"                    \r\nPID: N7K-C7018-FAB-1     ,  VID: V04 ,  SN: JAF1524DBCJ          \r\n\r\nNAME: \"Slot 20\",  DESCR: \"Fabric card module\"                    \r\nPID: N7K-C7018-FAB-1     ,  VID: V04 ,  SN: JAF1524DBCF          \r\n\r\nNAME: \"Slot 21\",  DESCR: \"Fabric card module\"                    \r\nPID: N7K-C7018-FAB-1     ,  VID: V04 ,  SN: JAF1524DBBH          \r\n\r\nNAME: \"Slot 22\",  DESCR: \"Fabric card module\"                    \r\nPID: N7K-C7018-FAB-1     ,  VID: V04 ,  SN: JAF1524DASJ          \r\n\r\nNAME: \"Slot 23\",  DESCR: \"Fabric card module\"                    \r\nPID: N7K-C7018-FAB-1     ,  VID: V04 ,  SN: JAF1524DBDE          \r\n\r\nNAME: \"Slot 33\",  DESCR: \"Nexus7000 C7018 (18 Slot) Chassis Power Supply\"\r\nPID: N7K-AC-7.5KW-US     ,  VID: V01 ,  SN: DTM152204YS          \r\n\r\nNAME: \"Slot 34\",  DESCR: \"Nexus7000 C7018 (18 Slot) Chassis Power Supply\"\r\nPID: N7K-AC-7.5KW-US     ,  VID: V01 ,  SN: DTM1322001G          \r\n\r\nNAME: \"Slot 35\",  DESCR: \"Nexus7000 C7018 (18 Slot) Chassis Power Supply\"\r\nPID: N7K-AC-7.5KW-US     ,  VID: V01 ,  SN: DTM1520005Q          \r\n\r\nNAME: \"Slot 36\",  DESCR: \"Nexus7000 C7018 (18 Slot) Chassis Power Supply\"\r\nPID: N7K-AC-7.5KW-US     ,  VID: V01 ,  SN: DTM152204Z7          \r\n\r\nNAME: \"Slot 37\",  DESCR: \"Nexus7000 C7018 (18 Slot) Chassis Fan Module\"\r\nPID: N7K-C7018-FAN       ,  VID: V01 ,  SN: FOX1520XA2Y          \r\n\r\nNAME: \"Slot 38\",  DESCR: \"Nexus7000 C7018 (18 Slot) Chassis Fan Module\"\r\nPID: N7K-C7018-FAN       ,  VID: V01 ,  SN: FOX1520XA0C          \r\n\r\n",
+              "commandCollectedAt": 1675669039518,
+              "evaluatedRules": [
+                {
+                  "op": "Script",
+                  "opvariable": "",
+                  "rule": {},
+                  "result": true,
+                  "template": "cisco_ios_show_inventory_cewa_V1P5P0.template",
+                  "analysis": "cisco_ide_switch_snapshot_analysis_cewa_V1P5P0.py",
+                  "overallstatus": true,
+                  "overallmessage": "Passed",
+                  "customStatus": "Passed",
+                  "customStatCode": "Pass",
+                  "executionStatus": true,
+                  "scriptResult": "Executed Successfully.",
+                  "fields": [
+                    [
+                      { "name": "Name", "value": "OUTPUT" },
+                      {
+                        "name": "Value",
+                        "value": "[{\"PID\": \"N7K-C7018\", \"NAME\": \"Chassis\", \"VID\": \"V01 \", \"SN\": \"TBM15243971\", \"DESCR\": \"Nexus7000 C7018 (18 Slot) Chassis \"}, {\"PID\": \"N7K-M132XP-12\", \"NAME\": \"Slot 1\", \"VID\": \"V11 \", \"SN\": \"JAF1525CSQT\", \"DESCR\": \"10 Gbps Ethernet Module\"}, {\"PID\": \"N7K-M132XP-12\", \"NAME\": \"Slot 2\", \"VID\": \"V11 \", \"SN\": \"JAF1525AFBN\", \"DESCR\": \"10 Gbps Ethernet Module\"}, {\"PID\": \"N7K-M132XP-12\", \"NAME\": \"Slot 3\", \"VID\": \"V11 \", \"SN\": \"JAF1525CSTL\", \"DESCR\": \"10 Gbps Ethernet Module\"}, {\"PID\": \"N7K-M132XP-12\", \"NAME\": \"Slot 4\", \"VID\": \"V14 \", \"SN\": \"JAF1452CNCM\", \"DESCR\": \"10 Gbps Ethernet Module\"}, {\"PID\": \"N7K-M132XP-12\", \"NAME\": \"Slot 5\", \"VID\": \"V11 \", \"SN\": \"JAF1525CSRM\", \"DESCR\": \"10 Gbps Ethernet Module\"}, {\"PID\": \"N7K-M132XP-12\", \"NAME\": \"Slot 6\", \"VID\": \"V11 \", \"SN\": \"JAF1525AFBE\", \"DESCR\": \"10 Gbps Ethernet Module\"}, {\"PID\": \"N7K-SUP1\", \"NAME\": \"Slot 9\", \"VID\": \"V13 \", \"SN\": \"JAF1525BPPT\", \"DESCR\": \"Supervisor Module-1X\"}, {\"PID\": \"N7K-SUP1\", \"NAME\": \"Slot 10\", \"VID\": \"V15 \", \"SN\": \"JAF1619AJGL\", \"DESCR\": \"Supervisor Module-1X\"}, {\"PID\": \"N7K-F132XP-15\", \"NAME\": \"Slot 16\", \"VID\": \"V02 \", \"SN\": \"JAF1521BBFB\", \"DESCR\": \"1/10 Gbps Ethernet Module\"}, {\"PID\": \"N7K-F132XP-15\", \"NAME\": \"Slot 17\", \"VID\": \"V02 \", \"SN\": \"JAF1521BBGP\", \"DESCR\": \"1/10 Gbps Ethernet Module\"}, {\"PID\": \"N7K-F132XP-15\", \"NAME\": \"Slot 18\", \"VID\": \"V02 \", \"SN\": \"JAF1701AAEP\", \"DESCR\": \"1/10 Gbps Ethernet Module\"}, {\"PID\": \"N7K-C7018-FAB-1\", \"NAME\": \"Slot 19\", \"VID\": \"V04 \", \"SN\": \"JAF1524DBCJ\", \"DESCR\": \"Fabric card module\"}, {\"PID\": \"N7K-C7018-FAB-1\", \"NAME\": \"Slot 20\", \"VID\": \"V04 \", \"SN\": \"JAF1524DBCF\", \"DESCR\": \"Fabric card module\"}, {\"PID\": \"N7K-C7018-FAB-1\", \"NAME\": \"Slot 21\", \"VID\": \"V04 \", \"SN\": \"JAF1524DBBH\", \"DESCR\": \"Fabric card module\"}, {\"PID\": \"N7K-C7018-FAB-1\", \"NAME\": \"Slot 22\", \"VID\": \"V04 \", \"SN\": \"JAF1524DASJ\", \"DESCR\": \"Fabric card module\"}, {\"PID\": \"N7K-C7018-FAB-1\", \"NAME\": \"Slot 23\", \"VID\": \"V04 \", \"SN\": \"JAF1524DBDE\", \"DESCR\": \"Fabric card module\"}, {\"PID\": \"N7K-AC-7.5KW-US\", \"NAME\": \"Slot 33\", \"VID\": \"V01 \", \"SN\": \"DTM152204YS\", \"DESCR\": \"Nexus7000 C7018 (18 Slot) Chassis Power Supply\"}, {\"PID\": \"N7K-AC-7.5KW-US\", \"NAME\": \"Slot 34\", \"VID\": \"V01 \", \"SN\": \"DTM1322001G\", \"DESCR\": \"Nexus7000 C7018 (18 Slot) Chassis Power Supply\"}, {\"PID\": \"N7K-AC-7.5KW-US\", \"NAME\": \"Slot 35\", \"VID\": \"V01 \", \"SN\": \"DTM1520005Q\", \"DESCR\": \"Nexus7000 C7018 (18 Slot) Chassis Power Supply\"}, {\"PID\": \"N7K-AC-7.5KW-US\", \"NAME\": \"Slot 36\", \"VID\": \"V01 \", \"SN\": \"DTM152204Z7\", \"DESCR\": \"Nexus7000 C7018 (18 Slot) Chassis Power Supply\"}, {\"PID\": \"N7K-C7018-FAN\", \"NAME\": \"Slot 37\", \"VID\": \"V01 \", \"SN\": \"FOX1520XA2Y\", \"DESCR\": \"Nexus7000 C7018 (18 Slot) Chassis Fan Module\"}, {\"PID\": \"N7K-C7018-FAN\", \"NAME\": \"Slot 38\", \"VID\": \"V01 \", \"SN\": \"FOX1520XA0C\", \"DESCR\": \"Nexus7000 C7018 (18 Slot) Chassis Fan Module\"}]"
+                      },
+                      { "name": "Info", "value": "" },
+                      { "name": "Status", "value": "Passed" }
+                    ]
+                  ],
+                  "format": "2.0",
+                  "globalVariables": {}
+                }
+              ]
+            }
+          ],
+          "executionId": "63e0ae31a7deac794748c7a9",
+          "executionDate": "2023-02-06T07:37:21.594Z"
+        }
+      ],
+      "executionIds": "[\"63e0ae31a7deac794748c7a7\",\"63e0ae31a7deac794748c7a9\"]"
+    }
+  ]
+  

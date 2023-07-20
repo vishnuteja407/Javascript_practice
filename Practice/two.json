@@ -1,0 +1,203 @@
+{
+  "agentInfo": {
+    "host-name": "dcnm-agent-service",
+    "agent-name": "DCNM Controller Agent",
+    "agent-id": "c2e13ad0-cf61-11eb-86c6-d97fc410563b9900d78",
+    "controller-type": "DCNM-agent-Test",
+    "base-URL": "/api/v1.0/dcnm-controller-agent/",
+    "health-check-URI": "/api/v1.0/dcnm-controller-agent/ping",
+    "status-URI": "/api/v1.0/dcnm-controller-agent/status",
+    "controller-edit-form": "DCNM-Controller-Edit",
+    "port": 9532,
+    "scheme": "https",
+    "status": "Up"
+  },
+  "capabilities": [
+    {
+      "internalName": "info",
+      "displayName": "Controller Info",
+      "controllerVersion": "11.5.1",
+      "appName": "device-manager",
+      "agentApiVersion": "1.0"
+    },
+    {
+      "internalName": "status",
+      "displayName": "Controller Status",
+      "controllerVersion": "11.5.1",
+      "appName": "device-manager",
+      "agentApiVersion": "1.0"
+    },
+    {
+      "internalName": "ping",
+      "displayName": "Ping",
+      "controllerVersion": "11.5.1",
+      "appName": "device-manager",
+      "agentApiVersion": "1.0"
+    },
+    {
+      "internalName": "view-config",
+      "displayName": "View Config",
+      "controllerVersion": "11.5.1",
+      "appName": "device-manager",
+      "agentApiVersion": "1.0"
+    },
+    {
+      "internalName": "get-config",
+      "displayName": "Get Config",
+      "controllerVersion": "11.5.1",
+      "appName": "template-manager",
+      "agentApiVersion": "1.0"
+    },
+    {
+      "internalName": "check-sync",
+      "displayName": "Check Sync",
+      "controllerVersion": "11.5.1",
+      "appName": "device-manager",
+      "agentApiVersion": "1.0"
+    },
+    {
+      "internalName": "sync-to",
+      "displayName": "Sync To",
+      "controllerVersion": "11.5.1",
+      "appName": "device-manager",
+      "agentApiVersion": "1.0"
+    },
+    {
+      "internalName": "devices",
+      "displayName": "Get Devices",
+      "controllerVersion": "11.5.1",
+      "appName": "device-manager",
+      "agentApiVersion": "1.0"
+    },
+    {
+      "internalName": "get-devices-hierarchy",
+      "displayName": "Get Devices Hierarchy",
+      "controllerVersion": "11.5.1",
+      "appName": "device-manager",
+      "agentApiVersion": "1.0"
+    },
+    {
+      "internalName": "get-process-templates",
+      "displayName": "Get Process Templates",
+      "controllerVersion": "11.5.1",
+      "appName": "template-manager",
+      "agentApiVersion": "1.0"
+    },
+    {
+      "internalName": "execute-process-templates",
+      "displayName": "Execute Process Templates",
+      "controllerVersion": "11.5.1",
+      "appName": "template-manager",
+      "agentApiVersion": "1.0"
+    },
+    {
+      "internalName": "get-templates",
+      "displayName": "Get GCT",
+      "controllerVersion": "11.5.1",
+      "appName": "template-manager",
+      "agentApiVersion": "1.0"
+    },
+    {
+      "internalName": "execute-gct",
+      "displayName": "Execute Golden Config Templates",
+      "controllerVersion": "11.5.1",
+      "appName": "template-manager",
+      "agentApiVersion": "1.0"
+    },
+    {
+      "internalName": "create-gct",
+      "displayName": "Create Golden Config Template",
+      "controllerVersion": "11.5.1",
+      "appName": "template-manager",
+      "agentApiVersion": "1.0"
+    },
+    {
+      "internalName": "update-gct",
+      "displayName": "Update Golden Config Template",
+      "controllerVersion": "11.5.1",
+      "appName": "template-manager",
+      "agentApiVersion": "1.0"
+    },
+    {
+      "internalName": "delete-gct",
+      "displayName": "Delete Golden Config Template",
+      "controllerVersion": "11.5.1",
+      "appName": "template-manager",
+      "agentApiVersion": "1.0"
+    }
+  ],
+  "forms": [
+    {
+      "formName": "DCNM-agent-Test|11.5.1|template-manager|get-templates",
+      "formData": [
+        {
+          "formType": "Generic Form",
+          "enableImport": false,
+          "showV2": false,
+          "dataTypeSettings": false,
+          "name": "DCNM-agent-Test|11.5.1|template-manager|get-templates",
+          "nso_instance": null,
+          "service": null,
+          "formSchema": {
+            "nodeType": "container"
+          }
+        }
+      ]
+    },
+    {
+      "formName": "DCNM-agent-Test|11.5.1|template-manager|execute-process-templates",
+      "formData": [
+        {
+          "formType": "Generic Form",
+          "enableImport": false,
+          "showV2": false,
+          "dataTypeSettings": false,
+          "name": "DCNM-agent-Test|11.5.1|template-manager|execute-process-templates",
+          "nso_instance": null,
+          "service": null,
+          "formSchema": {
+            "nodeType": "container"
+          }
+        }
+      ]
+    },
+    {
+      "formName": "DCNM-agent-Test|11.5.1|device-manager|get-devices-hierarchy",
+      "formData": [
+        {
+          "formType": "Generic Form",
+          "enableImport": false,
+          "showV2": false,
+          "dataTypeSettings": false,
+          "name": "DCNM-agent-Test|11.5.1|device-manager|get-devices-hierarchy",
+          "nso_instance": null,
+          "service": null,
+          "formSchema": {
+            "nodeType": "container"
+          }
+        }
+      ]
+    },
+    {
+      "formName": "DCNM-agent-Test|11.5.1|device-manager|info",
+      "formData": [
+        {
+          "formType": "Generic Form",
+          "enableImport": false,
+          "showV2": false,
+          "dataTypeSettings": false,
+          "name": "DCNM-agent-Test|11.5.1|device-manager|info",
+          "nso_instance": null,
+          "service": null,
+          "formSchema": {
+            "nodeType": "container"
+          }
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "osTypes": ["IOS", "IOS-XR"],
+    "deviceTypes": ["AUH", "XR-Device"]
+  }
+}

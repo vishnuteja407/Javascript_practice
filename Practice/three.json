@@ -1,0 +1,126 @@
+{
+  "agentInfo": {
+    "host-name": "dcnm-agent-service",
+    "agent-name": "DCNM Controller Agent",
+    "agent-id": "c2e13ad0-cf61-11eb-86c6-ddddc410563b99eed78",
+    "controller-type": "DCNM-agent-Test2",
+    "base-URL": "/api/v1.0/dcnm-controller-agent/",
+    "health-check-URI": "/api/v1.0/dcnm-controller-agent/ping",
+    "status-URI": "/api/v1.0/dcnm-controller-agent/status",
+    "controller-edit-form": "DCNM-Controller-Edit",
+    "port": 9532,
+    "scheme": "https",
+    "status": "Up"
+  },
+  "capabilities": [
+    {
+      "internalName": "execute-template",
+      "displayName": "Execute Golden Config Templates",
+      "controllerVersion": "11.5.1",
+      "appName": "template-manager",
+      "agentApiVersion": "1.0"
+    },
+    {
+      "internalName": "create-template",
+      "displayName": "Create Golden Config Template",
+      "controllerVersion": "11.5.1",
+      "appName": "template-manager",
+      "agentApiVersion": "1.0"
+    },
+    {
+      "internalName": "connect",
+      "displayName": "connect to the device",
+      "controllerVersion": "11.5.1",
+      "appName": "device-manager",
+      "agentApiVersion": "1.0"
+    },
+    {
+      "internalName": "ping",
+      "displayName": "ping to the device",
+      "controllerVersion": "11.5.1",
+      "appName": "device-manager",
+      "agentApiVersion": "1.0"
+    },
+    {
+      "internalName": "create-template",
+      "displayName": "Create Command Template",
+      "controllerVersion": "11.5.1",
+      "appName": "command-template",
+      "agentApiVersion": "1.0"
+    }
+  ],
+  "forms": [
+    {
+      "formName": "DCNM-agent-Test2|11.5.1|template-manager|create-template",
+      "formData": [
+        {
+          "formType": "Generic Form",
+          "enableImport": false,
+          "showV2": false,
+          "dataTypeSettings": false,
+          "name": "DCNM-agent-Test2|11.5.1|template-manager|create-template",
+          "nso_instance": null,
+          "service": null,
+          "formSchema": {
+            "nodeType": "container"
+          }
+        }
+      ]
+    },
+    {
+      "formName": "DCNM-agent-Test2|11.5.1|template-manager|execute-template",
+      "formData": [
+        {
+          "formType": "Generic Form",
+          "enableImport": false,
+          "showV2": false,
+          "dataTypeSettings": false,
+          "name": "DCNM-agent-Test2|11.5.1|template-manager|execute-template",
+          "nso_instance": null,
+          "service": null,
+          "formSchema": {
+            "nodeType": "container"
+          }
+        }
+      ]
+    },
+    {
+      "formName": "DCNM-agent-Test2|11.5.1|device-manager|connect",
+      "formData": [
+        {
+          "formType": "Generic Form",
+          "enableImport": false,
+          "showV2": false,
+          "dataTypeSettings": false,
+          "name": "DCNM-agent-Test2|11.5.1|device-manager|connect",
+          "nso_instance": null,
+          "service": null,
+          "formSchema": {
+            "nodeType": "container"
+          }
+        }
+      ]
+    },
+    {
+      "formName": "DCNM-agent-Test2|11.5.1|device-manager|ping",
+      "formData": [
+        {
+          "formType": "Generic Form",
+          "enableImport": false,
+          "showV2": false,
+          "dataTypeSettings": false,
+          "name": "DCNM-agent-Test2|11.5.1|device-manager|ping",
+          "nso_instance": null,
+          "service": null,
+          "formSchema": {
+            "nodeType": "container"
+          }
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "osTypes": ["IOS", "IOS-XR"],
+    "deviceTypes": ["AUH", "XR-Device"]
+  }
+}

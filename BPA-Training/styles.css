@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #040c18;
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+  height: 100%;
+  padding: 100px 135px;
+  font-size: 18px;
+}
+
+.logo {
+  font-weight: 800;
+}
+.headerNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainNav ul {
+  list-style: none;
+  display: flex;
+  align-content: space-around;
+  justify-content: space-around;
+}
+.mainNav ul li {
+  padding: 0 25px;
+  align-items: center;
+  font-weight: 300;
+}
+.signInBtn {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+.signUpBtn {
+  width: 152px;
+  height: 55px;
+  background-color: #ff4820;
+  border-radius: 5px;
+  margin-left: 10px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  border-color: #040c18;
+}
+
+.headerContent {
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+  justify-content: flex-start;
+}
+.headerHeading {
+  width: 80vh;
+}
+.headerHeading h1 {
+  font-size: 62px;
+  font-weight: 800;
+  background: -webkit-linear-gradient(left, #ae67fa, #f49867);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.headerImg {
+  height: 571px;
+}
+.headingText {
+  color: #81afdd;
+  margin-top: 10px;
+}
+.headingText p {
+  font-size: 20px;
+}
+/* .headingEmail {
+  display: flex;
+  justify-content: start;
+  margin-top: 16px;
+} */
+.noBorder {
+  margin-left: 0;
+  border-color: #ff4820;
+  border-radius: 0px 5px 5px 0px;
+  border: none;
+}
+.emailInp,
+.mobileNum {
+  width: 456px;
+  background: #052d56;
+  border-radius: 5px 0px 0px 5px;
+  font-size: 20px;
+  color: #3d6184;
+  border: none;
+  margin-bottom: 2%;
+  padding-left: 10px;
+}
+.externalLinks {
+  font-family: "Kanit", sans-serif;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  color: rgb(154, 157, 160);
+}
+.button1 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 800;
+  font-size: 25px;
+  width: 75px;
+  height: 55px;
+  margin-top: 25px;
+  border-radius: 100%;
+  border-color: #040c18;
+  background-color: red;
+  color: #fff;
+  margin-left: -4%;
+}
+
+.externalLinks li {
+  padding-right: 10px;
+}
+.blueClr {
+  color: #ae67fa;
+}
+#redClr {
+  color: #ff4820;
+}
+#greenClr {
+  color: green;
+}
